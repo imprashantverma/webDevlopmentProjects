@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navigation{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#logo{
+    margin-right: 100px;
+    display: inline-block;
+    width: 90px;
+}
+button{
+    margin-left: 100px;
+    height: 45px ;
+    width: 180px;
+    background-color: blue;
+    color: white;
+}
+.middle{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+#lefttext{
+    height: 100%;
+    width: 50%;
+    margin-top: 100px;
+}
+#rightphoto{
+    height: 100%;
+    width: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loverboy{
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+   
+}
+.second{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 15px solid rgb(225, 225, 240);
+}
+
+#leftimage{
+    margin: 50px;
+    height: 100%;
+    width: 50%;
+    }
+
+#petubabar{
+    width: 60%;
+    height: 60%px;
+    border-radius: 70px;
+}
+#righttext{
+    width: 55%;
+    height: 55%px;
+    
+}
+.third{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+    
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 420px;
+    align-items: center;
+    
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 420px;
+    align-items: flex-start;
+}
+.box3{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.box4{
+    height: 100%;
+    width: 20%;
+    margin-right: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.facebook{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(19, 184, 120);
+    border-radius: 20px;
+}
+.twitter{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(19, 184, 120);
+    border-radius: 20px;
+}
+.whatsapp{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(19, 184, 120);
+    border-radius: 20px;
+}
